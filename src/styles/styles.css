@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgrey;
+}
+h3{
+    border: 1px solid black;
+}
+#content{
+    flex:1;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10%;
+    font-size:2rem;
+}
